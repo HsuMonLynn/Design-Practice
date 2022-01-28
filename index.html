@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="logo-img">
+                <img src="image/logo.png" alt="logo">
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" style="color: #01C292;"> ပင်မ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">အိမ်ခြံမြေရောင်းရန်</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">အိမ်ခြံမြေငှားရန်</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">အဆောင်ငှားရန်</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">လိုချင်သည့်အဆောင်ရှာရန်</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">ပို့စ်တင်ရန်</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "href="#"> မိမိပို့စ်</a>
+                    </li>
+                </ul>
+                <div id="nav-right">
+                    <ul class="right-txt">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #01C292;">ဝင်ရောက်ပါ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #01C292;">စာရင်းသွင်းပါ</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="pc banner">
+        <div class="container">
+            <div class="row justify-content-center m-5" id="bnr-radio">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                    <label class="form-check-label" for="inlineRadio1">အိမ်ခြံမြေရောင်းရန်</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option1">
+                    <label class="form-check-label" for="inlineRadio2">အိမ်ခြံမြေငှားရန်</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio3">အဆောင်ငှားရန်</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                        value="option3">
+                    <label class="form-check-label" for="inlineRadio4">လိုချင်သည့်အဆောင်ရှာရန်</label>
+                </div>
+            </div>
+            <div class="row">
+                <div id="col">
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle"
+                            style="border-color:#01C292; width:200px; text-align: start;" data-toggle="dropdown">
+                            တိုင်း / ပြည်နယ်
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">နေပြည်တော်
+                            </a>
+                            <a class="dropdown-item" href="#">ပဲခူးတိုင်း
+                            </a>
+                            <a class="dropdown-item" href="#">မကွေးတိုင်း
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="col">
+                    <div class="dropdown" id="d-width">
+                        <button type="button" class="btn dropdown-toggle"
+                            style="border-color:#01C292;width:200px; text-align: start;" data-toggle="dropdown">
+                            ခရိုင်
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">ခရိုင်
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="col">
+                    <div class="dropdown" id="d-width">
+                        <button type="button" class="btn dropdown-toggle"
+                            style="border-color:#01C292;width:200px; text-align: start;" data-toggle="dropdown">
+                            မြို့နယ်
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">မြို့နယ်
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="col">
+                    <div class="dropdown" id="d-width">
+                        <button type="button" class="btn dropdown-toggle"
+                            style="border-color:#01C292; width:200px; text-align: start;" data-toggle="dropdown">
+                            အမျိုး‌အစား
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">တိုက်ခန်း
+
+                            </a>
+                            <a class="dropdown-item" href="#">လုံးချင်းအိမ်
+                            </a>
+                            <a class="dropdown-item" href="#">ကွန်ဒို
+                            </a>
+                            <a class="dropdown-item" href="#">မြေကွက် ၊ ခြံ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="col">
+                    <button type="button" class="btn" id="search-btn"
+                        style="background-color:#01C292; width:200px;color: #fff; text-align: center;"><i class="fa fa-search pr-2"></i>ရှာဖွေပါ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sp banner">
+        <div class="container">
+            <div class="row justify-content-start m-5" id="bnr-radio">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                    <label class="form-check-label" for="inlineRadio1">အိမ်ခြံမြေရောင်းရန်</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">အိမ်ခြံမြေငှားရန်</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option3">
+                    <label class="form-check-label" for="inlineRadio3">အဆောင်ငှားရန်</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                        value="option4">
+                    <label class="form-check-label" for="inlineRadio4">လိုချင်သည့်အဆောင်ရှာရန်</label>
+                </div>
+            </div>
+            <div class="row">
+                <div id="col" class="p-2">
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle"
+                            style="border-color:#01C292; width:100%; text-align: start;" data-toggle="dropdown">
+                            တိုင်း / ပြည်နယ်
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">နေပြည်တော်
+                            </a>
+                            <a class="dropdown-item" href="#">ပဲခူးတိုင်း
+                            </a>
+                            <a class="dropdown-item" href="#">မကွေးတိုင်း
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="col" class="p-2">
+                    <div class="dropdown" id="d-width">
+                        <button type="button" class="btn dropdown-toggle"
+                            style="border-color:#01C292;width:100%; text-align: start;" data-toggle="dropdown">
+                            ခရိုင်
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">ခရိုင်
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="col" class="p-2">
+                    <div class="dropdown" id="d-width">
+                        <button type="button" class="btn dropdown-toggle"
+                            style="border-color:#01C292;width:100%; text-align: start;" data-toggle="dropdown">
+                            မြို့နယ်
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">မြို့နယ်
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="col" class="p-2">
+                    <div class="dropdown" id="d-width">
+                        <button type="button" class="btn dropdown-toggle"
+                            style="border-color:#01C292; width:100%; text-align: start;" data-toggle="dropdown">
+                            အမျိုး‌အစား
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">တိုက်ခန်း
+
+                            </a>
+                            <a class="dropdown-item" href="#">လုံးချင်းအိမ်
+                            </a>
+                            <a class="dropdown-item" href="#">ကွန်ဒို
+                            </a>
+                            <a class="dropdown-item" href="#">မြေကွက် ၊ ခြံ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="col" class="row justify-content-center p-2">
+                    <button type="button" class="btn" id="search-btn" 
+                        style="background-color:#01C292; width:200px;color: #fff; text-align: center;"><i class="fa fa-search pr-2"></i>ရှာဖွေပါ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-1">
+        <div class="container">
+            <h4>
+                အိမ်ခြံမြေငှားရန်
+            </h4>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Mr.</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <p class="card-text" style="font-weight: bold;">7130.00 ဒေါ်လာ</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Mrs.</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <p class="card-text" style="font-weight: bold;">7130.00 ဒေါ်လာ</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.</p>
+                            <p class="card-text" style="font-weight: bold;">7130.00 ဒေါ်လာ</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img4.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <p class="card-text" style="font-weight: bold;">7130.00 ဒေါ်လာ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <button type="button" class="btn m-5"
+                style="background-color:#01C292; color: #fff; text-align: center;">ပိုမိုကြည့်ရှုရန်</button>
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+        <div class="container">
+            <h4>
+                အိမ်ခြံမြေရောင်းရန်
+            </h4>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img4.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Mr.</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <p class="card-text" style="font-weight: bold;">9361.00 ကျပ်</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Mrs.</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <p class="card-text" style="font-weight: bold;">9361.00 ကျပ်</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.</p>
+                            <p class="card-text" style="font-weight: bold;">9361.00 ကျပ်</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img4.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <p class="card-text" style="font-weight: bold;">9361.00 ကျပ်</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <button type="button" class="btn m-5"
+                style="background-color:#01C292; color: #fff; text-align: center;">ပိုမိုကြည့်ရှုရန်</button>
+            </div>
+        </div>
+    </div>
+    <div class="section-1">
+        <div class="container">
+            <h4>
+                အဆောင်ငှားရန်
+            </h4>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Miss.</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                            <p class="card-text" style="font-weight: bold;">7130.00 ဒေါ်လာ</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Mr.</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                            <p class="card-text" style="font-weight: bold;">7130.00 ဒေါ်လာ</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Prof.</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.</p>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                            <p class="card-text" style="font-weight: bold;">7130.00 ဒေါ်လာ</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="image/sec1-img4.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr.</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                                <i class="fa fa-star fa-xs" style="color: #F28602"></i>
+                            <p class="card-text" style="font-weight: bold;">7130.00 ဒေါ်လာ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <button type="button" class="btn m-5"
+                style="background-color:#01C292; color: #fff; text-align: center;">ပိုမိုကြည့်ရှုရန်</button>
+            </div>
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="container">
+            <h4>လိုချင်သည့်အဆောင်ရှာရန်</h4>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrupti animi quibusdam</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrupti animi quibusdam.</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrupti animi quibusdam</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrupti animi quibusdam</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <button type="button" class="btn m-5"
+                style="background-color:#01C292; color: #fff; text-align: center;">ပိုမိုကြည့်ရှုရန်</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright © 2022 example.com. All Rights Reserved.</p>
+    </div>
+</body>
+
+</html>
