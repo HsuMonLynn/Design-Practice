@@ -5,7 +5,7 @@
       background-color: #fff;
       font: weight 500px;;
   }
-  
+
   nav .container .nav-right .right-txt a:hover{
       color:gray;
   }
@@ -41,8 +41,8 @@
 
   .banner #col #search-btn{
     background-color:#01C292;
-     width:200px;color: #fff; 
-    text-align: center;
+    width:200px;
+    color: #fff; 
   }
 
   .banner .container #bnr-radio label{
@@ -117,12 +117,6 @@
         margin: 10px 0;
     }
 
-    .banner #col #search-btn{
-        background-color:#01C292;
-        width:100%;
-        color: #fff; 
-        text-align: center;
-      }
 }
   
    
