@@ -1,0 +1,31 @@
+
+  nav{
+    background-color: #fff;
+    font: weight 500px;;
+}
+nav .container .nav-right .right-txt a:hover{
+    color:gray;
+}
+nav a:hover {
+  color: #099573;
+}
+nav .container #logo-img img{
+    width: 30px;
+    height: 30px;
+}
+nav .container #nav-right{
+    float: right;
+}
+nav .container #nav-right li{
+    float: left;
+    list-style-type:none;
+}
+.footer{
+  background-color:#01C292;
+  padding: 10px;
+  text-align: center;
+}
+.footer p{
+  color:#fff;
+  font-size:13px ;
+}
