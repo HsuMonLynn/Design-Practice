@@ -1,29 +1,28 @@
 * {
     box-sizing: border-box;
   }
-  .sp{
-    display: none;
-  }
-  .pc{
-      display: block;
-  }
   nav{
       background-color: #fff;
       font: weight 500px;;
   }
+  
   nav .container .nav-right .right-txt a:hover{
       color:gray;
   }
+
  nav a:hover {
     color: #099573;
  }
+
   nav .container #logo-img img{
       width: 30px;
       height: 30px;
   }
+
   nav .container #nav-right{
       float: right;
   }
+
   nav .container #nav-right li{
       float: left;
       list-style-type:none;
@@ -33,47 +32,97 @@
       background-color: #f3f4f6;
       padding: 20px 0 100px 0;
   }
+
+  .banner #dropdown-btn{
+    border-color:#01C292; 
+    width:200px; 
+    text-align: start;
+  }
+
+  .banner #col #search-btn{
+    background-color:#01C292;
+     width:200px;color: #fff; 
+    text-align: center;
+  }
+
   .banner .container #bnr-radio label{
     font-weight: bold;
     font-size: large;
   }
+
   .banner .container .row #col{
       float: left;
       width: 20%;
   }
- #search-btn:hover{
+
+  .banner #col #search-btn:hover{
       background-color: #099573;
   }
+
   .section-1 h4{
       padding: 30px 0 20px 0;
       font-weight: bold;
   }
+
+  .section-1 .btn,
+  .section-2 .btn,
+  .section-3 .btn{
+    background-color:#01C292; 
+    color: #fff; 
+    text-align: center;
+  }
+
+  .section-1 .btn:hover{
+    background-color: #099573;
+  }
+  .section-2 .btn:hover{
+    background-color: #099573;
+  }
+  .section-3 .btn:hover{
+    background-color: #099573;
+  }
+
   .section-2,.section-3{
     background-color: #f3f4f6;
   }
+
   .section-2 h4,.section-3 h4{
     font-weight: bold;
     padding: 30px 0 20px 0;
   }
+
   .footer{
     background-color:#01C292;
     padding: 10px;
     text-align: center;
   }
+
   .footer p{
     color:#fff;
     font-size:13px ;
 }
-@media only screen and (min-width: 280px) and (max-width: 480px){
-    .sp{
-        display: block;
-    }
-    .pc{
-          display: none;
-    }
+@media only screen and (min-width: 320px) and (max-width: 640px){
+
     .banner .container .row #col{
         width: 100%;
     }
+
+    .container{
+        padding: 0px 35px;
+    }
+
+    .banner #dropdown-btn{
+        width:100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .banner #col #search-btn{
+        background-color:#01C292;
+        width:100%;
+        color: #fff; 
+        text-align: center;
+      }
 }
   
    
