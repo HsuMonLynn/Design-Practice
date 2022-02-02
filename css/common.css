@@ -1,5 +1,5 @@
 
-  nav{
+nav{
     background-color: #fff;
     font: weight 500px;;
 }
@@ -9,7 +9,7 @@ nav .container .nav-right .right-txt a:hover{
 nav a:hover {
   color: #099573;
 }
-nav .container #logo-img img{
+nav #logo-img{
     width: 30px;
     height: 30px;
 }
